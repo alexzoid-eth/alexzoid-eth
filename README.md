@@ -1,6 +1,6 @@
 # Formal Verification Services
 
-I am a formal verification specialist ([x.com/alexzoid_eth](https://x.com/alexzoid_eth)) with deep expertise in Certora, currently ranked 🏆 #1 on the [Certora Community Contest leaderboard](https://certora.com/leaderboard) with multiple top placements in competitive contests.
+I am a formal verification specialist ([x.com/alexzoid_eth](https://x.com/alexzoid_eth)) with deep expertise in Certora, currently ranked 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard) with multiple top placements in competitive contests.
 
 ## Track Record
 
