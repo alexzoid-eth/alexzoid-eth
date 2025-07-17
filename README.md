@@ -9,7 +9,7 @@ I am a formal verification specialist ([x.com/alexzoid_eth](https://x.com/alexzo
 
 ## Verification Approach
 
-My verification approach follows a systematic methodology. After initial project setup, I develop a comprehensive list of properties in plain English, then categorize them using official Certora's [property approach](https://github.com/Certora/Tutorials/blob/master/06.Lesson_ThinkingProperties/Categorizing_Properties.pdf) as a foundation: valid state, variable transition, state transition, and high-level properties. Additional property types such as "Isolation" and "EIP Compliance" are incorporated as needed.
+My verification approach follows a systematic methodology. After initial project setup, I develop a comprehensive list of properties in plain English, then categorize them using official Certora's [property approach](https://github.com/Certora/Tutorials/blob/master/06.Lesson_ThinkingProperties/Categorizing_Properties.pdf) as a foundation: valid state, variable transition, state transition, and high-level properties. Additional property types such as "Isolation", "EIP Compliance", etc, are incorporated as needed.
 
 ### Property Categories
 
