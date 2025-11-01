@@ -2,8 +2,6 @@
 
 I am a formal verification specialist ([x.com/alexzoid_eth](https://x.com/alexzoid_eth)) with deep expertise in Certora, currently ranked 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard) with multiple top placements in competitive contests.
 
-Check my availability in this [calendar](https://dobu.uk/availability/81/2025-10). All methods of communication on [soloaudit.com/auditor/alexzoid](https://soloaudit.com/auditor/alexzoid) page. 
-
 ## Track Record
 
 - **Portfolio**: [github.com/alexzoid-eth/public-fv-reports](https://github.com/alexzoid-eth/public-fv-reports) - Public specifications and reports
