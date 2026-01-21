@@ -4,7 +4,7 @@ I am a formal verification specialist ([x.com/alexzoid](https://x.com/alexzoid))
 
 ## Track Record
 
-- **Portfolio**: [github.com/alexzoid-eth/public-fv-reports](https://github.com/alexzoid-eth/public-fv-reports) - Public specifications and reports
+- **Portfolio**: [github.com/alexzoid-eth/public-fv-reports](https://github.com/alexzoid-eth/fv-track-record) - Public specifications and reports
 - **Methodology**: [alexzoid.com](https://alexzoid.com) - Detailed insights into my verification approach
 
 ## Verification Approach
