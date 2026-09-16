@@ -1,19 +1,15 @@
-# AlexZoid · Formal Verification for Smart Contracts
+# AlexZoid · Formal Verification for DeFi
 
-Formal verification mathematically proves your core invariants hold for every possible input and state.
+I build formal specifications for complex DeFi protocols using the Certora Prover.
 
-I'm an independent formal verification engineer using the Certora Prover:
 - 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
-- 20+ confirmed engagements since 2023 on EVM, Stellar and Solana
-- Verified protocols include Morpho, Uniswap v4, Euler v2, Aave and Silo v2
+- A single FV property caught a [Critical bug](#hl-2025-08-valid-state-crit) missed by manual review
+- 20+ formal verification engagements since 2023 across EVM, Stellar and Solana
+- Protocols verified: Morpho, Uniswap v4, Euler v2, Aave, Silo v2
 
-> My FV property caught a Critical bug missed by manual review [💬](#hl-2025-08-valid-state-crit)
+DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 
-You get a spec suite in your repo, a report of every proved property, and a guide for your team to extend it, typically within 3–4 weeks.
-
-DM [x.com/alexzoid](https://x.com/alexzoid) with your repo and scope to get started.
-
-[Full track record](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#engagements) · [All highlights](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#highlights) · [How an engagement runs](#how-an-engagement-runs) · [Methodology](#methodology)
+[Full track record](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#engagements) · [Highlights](#highlights) · [How an engagement runs](#how-an-engagement-runs) · [Methodology](#methodology)
 
 ## Track record
 
@@ -59,7 +55,7 @@ DM [x.com/alexzoid](https://x.com/alexzoid) with your repo and scope to get star
 
 1. **Scene plan.** Before any rule is written, I draw a schematic plan of verification scenes: what is verified, which contracts are compiled together, which are modelled in CVL, and what stays out of scope. You know what you will get before the work starts.
 2. **Delivered scene by scene.** Specs, report sections and the developer guide grow as properties are proved, so you follow the progress instead of waiting for a final drop.
-3. **Handover.**
+3. **You get:**
    - **Specification suite**: a self-contained `certora/` folder you copy into your repo root as is, with CVL specs, confs, harnesses, models, mutants and the commands to reproduce every result. See it [in Tenor's repo](https://github.com/tenor-labs/tenor-contracts/tree/main/certora).
    - **Report** in Markdown and PDF: scope, scenes, assumptions, and one row per property with its status and the mutants it catches.
    - **Developer guide**, internal and written for your team: how the suite is built and the mindset behind it, shown on your own code, so your developers can extend the specification on their own.
