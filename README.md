@@ -1,19 +1,28 @@
-# AlexZoid · Formal Verification
+# AlexZoid · Formal Verification for Smart Contracts
 
-I'm an independent formal verification engineer specializing in the Certora Prover. DM [x.com/alexzoid](https://x.com/alexzoid) for engagements.
+Formal verification mathematically proves your core invariants hold for every possible input and state.
 
-[Highlights](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#highlights) · [FV resources](https://github.com/alexzoid-eth/fv-resources) · [alexzoid.com](https://alexzoid.com)
+I'm an independent formal verification engineer using the Certora Prover:
+- 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
+- 20+ confirmed engagements since 2023 on EVM, Stellar and Solana
+- Verified protocols include Morpho, Uniswap v4, Euler v2, Aave and Silo v2
+
+> My FV property caught a Critical bug missed by manual review [💬](#hl-2025-08-valid-state-crit)
+
+You get a spec suite in your repo, a report of every proved property, and a guide for your team to extend it, typically within 3–4 weeks.
+
+DM [x.com/alexzoid](https://x.com/alexzoid) with your repo and scope to get started.
+
+[Full track record](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#engagements) · [All highlights](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#highlights) · [How an engagement runs](#how-an-engagement-runs) · [Methodology](#methodology)
 
 ## Track record
-
-24 engagements since 2023 · 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 
 | Date | Specification | Chain | Engagement | Report |
 |------|---------|----------|----------|-----|
 | 2026 Jun | [Tenor](https://github.com/tenor-labs/tenor-contracts/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2026-07-tenor) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_06_tenor_fv_report_alexzoid.pdf) |
-| 2026 May | [Morpho Midnight](https://github.com/alexzoid-eth/morpho-midnight-fv/tree/main/certora) | EVM | - | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_05_morpho_midnight_fv_report_alexzoid.pdf) |
+| 2026 May | [Morpho Midnight](https://github.com/alexzoid-eth/morpho-midnight-fv/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_05_morpho_midnight_fv_report_alexzoid.pdf) |
 | 2026 Apr | Vault aggregator | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2026-07-cyfrin-vault-aggregator) | - |
-| 2026 Mar | [Morpho Blue](https://github.com/alexzoid-eth/morpho-blue-fv/tree/main/certora) | EVM | - | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_03_morpho_blue_fv_report_alexzoid.pdf) |
+| 2026 Mar | [Morpho Blue](https://github.com/alexzoid-eth/morpho-blue-fv/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_03_morpho_blue_fv_report_alexzoid.pdf) |
 | 2026 Feb | Parallel | EVM | [Cyfrin](https://x.com/Cyfrin) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_02_parallel_fv_report_cyfrin_alexzoid.pdf) |
 | 2026 Jan | predict.fun | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2026-02-predictdotfun) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_01_predict_dot_fun_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Nov | Deriverse | Solana | [Cyfrin](https://x.com/Cyfrin) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2025-12-cyfrin-solana-dex) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_11_deriverse_fv_report_cyfrin_alexzoid.pdf) |
@@ -32,7 +41,7 @@ I'm an independent formal verification engineer specializing in the Certora Prov
 
 ---
 
-<a name="hl-2025-08-valid-state-crit"></a>[2025 Aug](https://x.com/alexzoid/status/1960987430426747273) · My FV property caught a Critical missed by manual review
+<a name="hl-2025-08-valid-state-crit"></a>[2025 Aug](https://x.com/alexzoid/status/1960987430426747273) · My FV property caught a Critical bug missed by manual review
 
 <a href="https://x.com/alexzoid/status/1960987430426747273"><img src="https://raw.githubusercontent.com/alexzoid-eth/fv-track-record/main/assets/2025-08-28-alexzoid-valid-state-crit.png" width="400" alt="AlexZoid FV (@alexzoid): Thanks for the kind words! It was an absolute pleasure wizarding @certora Formal Verification with you @cyfrin folks! Quoting Dacian (@DevDacian): this was in a recent Cyfrin private audit, great stuff @alexzoid! Original post by @alexzoid: In a past private engagement with auditors, my @certora Formal Verification valid state property caught a CRIT in the assembly of a complex lending protocol, missed by manual reviews. Clear proof of FV's value in complementing fuzzing and classic audits."></a>
 
@@ -63,3 +72,7 @@ I'm an independent formal verification engineer specializing in the Certora Prov
 - **Tagged assumptions.** Every `require` says why it is allowed: `SAFE` excludes nothing reachable · `SCOPE` narrows a rule to the logic it checks · `UNSAFE` knowingly drops reachable states · `TRUSTED` relies on a party outside the scene · `PROVED` restates a fact proved elsewhere · `ASSERT` mirrors a revert of the real code.
 - **Property categories.** Certora's [categories](https://github.com/Certora/Tutorials/blob/master/06.Lesson_ThinkingProperties/Categorizing_Properties.pdf) (Valid State, State Transitions, Variable Transitions, High Level), plus Unit Tests, Reverts, Reachability, Access Control and EIP Compliance. Parametric rules call an arbitrary function, so functions added later are covered without rewriting the rule.
 - **Quality checks.** A passing rule is not evidence on its own, so every proved rule has its own mutation, a fault planted in the source, which the rule catches to prove that it works.
+
+---
+
+[FV resources](https://github.com/alexzoid-eth/fv-resources) · [alexzoid.com](https://alexzoid.com)
