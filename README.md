@@ -4,7 +4,7 @@ I build formal specifications for complex DeFi protocols using the Certora Prove
 
 - 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 - A single FV property caught a [Critical bug](#hl-2025-08-valid-state-crit) missed by manual review
-- 20+ formal verification engagements since 2023 across EVM, Stellar and Solana
+- 25 formal verification engagements since 2023 across EVM, Stellar and Solana
 - Protocols verified: Morpho, Uniswap v4, Euler v2, Aave, Silo v2
 
 DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
