@@ -4,7 +4,7 @@ I build formal specifications for complex DeFi protocols using the Certora Prove
 
 - 🏆 #1 on the Certora Community Contest [leaderboard](https://certora.com/leaderboard)
 - A single FV property caught a [Critical bug](#hl-2025-08-valid-state-crit) missed by manual review
-- 25 formal verification engagements since 2023 across EVM, Stellar and Solana
+- 26 formal verification engagements since 2023 across EVM, Stellar and Solana
 - Protocols verified: Morpho, Uniswap v4, Euler v2, Aave, Silo v2
 
 DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
@@ -15,6 +15,7 @@ DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 
 | Date | Specification | Chain | Engagement | Report |
 |------|---------|----------|----------|-----|
+| 2026 Aug | Centrifuge | EVM | [Centrifuge](https://docs.centrifuge.io/developer/security/audits/) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2026-09-centrifuge) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_08_centrifuge_core_fv_report_alexzoid.pdf) |
 | 2026 Jun | [Tenor](https://github.com/tenor-labs/tenor-contracts/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2026-07-tenor) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_06_tenor_fv_report_alexzoid.pdf) |
 | 2026 May | [Morpho Midnight](https://github.com/alexzoid-eth/morpho-midnight-fv/tree/main/certora) | EVM | [Tenor](https://x.com/TenorFinance) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2026_05_morpho_midnight_fv_report_alexzoid.pdf) |
 | 2026 Apr | Vault aggregator | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2026-07-cyfrin-vault-aggregator) | - |
@@ -24,7 +25,6 @@ DM [x.com/alexzoid](https://x.com/alexzoid) for engagements
 | 2025 Nov | Deriverse | Solana | [Cyfrin](https://x.com/Cyfrin) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2025-12-cyfrin-solana-dex) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_11_deriverse_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Oct | Accountable | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2025-10-accountable) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_10_accountable_fv_report_cyfrin_alexzoid.pdf) |
 | 2025 Sep | l2-angstrom | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2025-10-cyfrin-sorella-angstrom) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_09_sorella_l2_angstrom_fv_report_cyfrin_alexzoid.pdf) |
-| 2025 Aug | [Licredity](https://github.com/alexzoid-eth/licredity-v1-core-fv/tree/cyfrin-formal-verification/certora) | EVM | [Cyfrin](https://x.com/Cyfrin) [💬](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#hl-2025-09-licredity) | [PDF](https://github.com/alexzoid-eth/fv-track-record/blob/main/pdf/2025_08_licredity_fv_report_cyfrin_alexzoid.pdf) |
 | ... | [more engagements in the full table →](https://github.com/alexzoid-eth/fv-track-record/blob/main/README.md#engagements) | | | |
 
 ## Highlights
